@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+    padding:  0.1em 0;
+    font-size:2em;
+    color: Black;
+    margin: 0;
+}
+
+#intro {
+    color: Black;
+}
+
+#toggle {
+    font-size: 30px;
+    background: pink;
+}
+
+#grid {
+    width: 450px;
+    height: 450px;
+    border: 10px solid maroon;
+    background: pink;
+    
+    margin: 0 auto;
+    display: flex;  /*for better alignment of boxes*/
+    flex-wrap: wrap; /*for alignment of individual boxes accoding to width*/
+}
+
+/*Setting of square*/
+#grid div{
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.click {
+  background-color: darkgrey;
+}
+
+.n1{
+    color: green;
+}
+
+.n2{
+    color: blue;
+}
+
+.n3{
+    color: navy;
+}
+
+.n4{
+    color: red;
+}
+
+.n5{
+    color: teal;
+}
+
+.n6{
+    color: yellow;
+}
+
+.n7{
+    color: purple;
+}
+
+.n8{
+    color: orange;
+}
